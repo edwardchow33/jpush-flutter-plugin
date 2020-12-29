@@ -36,10 +36,10 @@ android {
 dependencies {
     // compile files('libs/jpush-android-3.8.6-google_play.jar')
     // compile files('libs/jcore-android-2.6.0-google_play.jar')
-    compile 'cn.jiguang.sdk:jpush-google:3.8.6'  // 此处以JPush 3.8.6 Google Play版本为例
-    compile 'cn.jiguang.sdk:jcore-google:2.6.0'  // 此处以JCore 2.6.0 Google Play 版本为例。
-    // implementation 'cn.jiguang.sdk:jpush:3.8.0'
-    // implementation 'cn.jiguang.sdk:jcore:2.3.4'
+    // compile 'cn.jiguang.sdk:jpush-google:3.8.6'  // 此处以JPush 3.8.6 Google Play版本为例
+    // compile 'cn.jiguang.sdk:jcore-google:2.6.0'  // 此处以JCore 2.6.0 Google Play 版本为例。
+    implementation 'cn.jiguang.sdk:jpush:3.8.0'
+    implementation 'cn.jiguang.sdk:jcore:2.3.4'
 //    implementation 'com.android.support:appcompat-v7:28.+'
     compileOnly files('libs/flutter.jar')
 
